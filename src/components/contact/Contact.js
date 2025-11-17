@@ -36,7 +36,7 @@ export default function Contact() {
             <p className='font-bold text-white text-md sm:text-xl'>Lets talk me</p>
             <div>
               <p className='text-sm cursor-default hover:text-[var(--color-primary-green)] transition-color duration-200'>
-                0961554333
+                0961554371
               </p>
             </div>
           </div>

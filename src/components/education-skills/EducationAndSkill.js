@@ -26,7 +26,7 @@ const experienceList = [
 
   {
     id: 2,
-    time: '01/2024 - 07/2024',
+    time: '01/2024 - 04/2024',
     jobTitle: 'Front end fresher',
     company: 'BAP Software, Hue',
     description: [
@@ -46,26 +46,26 @@ const experienceList = [
     ],
   },
 
-  {
-    id: 3,
-    time: '09/2023 - 01/2024',
-    jobTitle: 'Web fresher',
-    company: 'FPT Software',
-    description: [
-      {
-        id: 1,
-        text: 'Participated in a project building an online social platform as a Front-end Developer using ReactJS, SCSS, and Bootstrap 4.',
-      },
-      {
-        id: 2,
-        text: 'Also contributed to backend development by creating APIs with Spring Boot 4.',
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   time: '09/2023 - 01/2024',
+  //   jobTitle: 'Web fresher',
+  //   company: 'FPT Software',
+  //   description: [
+  //     {
+  //       id: 1,
+  //       text: 'Participated in a project building an online social platform as a Front-end Developer using ReactJS, SCSS, and Bootstrap 4.',
+  //     },
+  //     {
+  //       id: 2,
+  //       text: 'Also contributed to backend development by creating APIs with Spring Boot 4.',
+  //     },
+  //   ],
+  // },
 
   {
     id: 4,
-    time: '02/2022 - 06/2023',
+    time: '04/2023 - 08/2023',
     jobTitle: 'Frontend intern',
     company: 'Platinum Technology',
     description: [

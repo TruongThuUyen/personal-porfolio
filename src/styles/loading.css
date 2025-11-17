@@ -1,7 +1,7 @@
 .loading-wrapper {
   background-color: var(--color-surface-secondary);
   transform: translateY(0);
-  animation: slide-up-to-top 1.5s ease-in-out 4s forwards;
+  animation: slide-up-to-top 1.5s ease-in-out 3.5s forwards;
 }
 
 @keyframes slide-up-to-top {

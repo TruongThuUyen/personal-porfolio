@@ -10,7 +10,6 @@ import TextMarquee from '@/components/text-marquee/TextMarquee';
 import '@/styles/page.css';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import avatar from '../../public/images/avatar.jpg';
 import Loading from './loading';
 
 export default function Home() {
@@ -19,7 +18,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 4000);
+    }, 4400);
     return () => clearTimeout(timer);
   }, []);
 
@@ -159,13 +158,19 @@ export default function Home() {
                     transition-[var(--tran-05)] 
                     overflow-hidden cursor-pointer
                 '>
-                  <a href='#'>DOWNLOAD MY CV</a>
+                  <a href='/files/Truong-Thi-Thu-Uyen-cv.pdf' download>
+                    DOWNLOAD MY CV
+                  </a>
                 </button>
               </div>
 
               <div className='avatar-container hidden lg:flex lg:w-[50%] items-center justify-center my-12'>
                 <div className='avatar-border'>
-                  <img src={avatar.src} className='avatar-image object-cover' alt='avatar' />
+                  <img
+                    src='/images/avatar.jpg'
+                    className='avatar-image object-cover'
+                    alt='avatar'
+                  />
                 </div>
               </div>
             </div>

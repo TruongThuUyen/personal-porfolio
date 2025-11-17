@@ -1,5 +1,4 @@
 'use client';
-import personalImage from '../../../public/images/personal-image.jpg';
 import './styled.css';
 
 import { useEffect } from 'react';
@@ -53,13 +52,19 @@ export default function AboutMe() {
                 text-[var(--color-primary-black)] bg-[var(--color-primary-green)] 
                 transition-[var(--tran-05)] 
                 overflow-hidden cursor-pointer'>
-              <a href='#'>DOWNLOAD MY CV</a>
+              <a href='/files/Truong-Thi-Thu-Uyen-cv.pdf' download>
+                DOWNLOAD MY CV
+              </a>
             </button>
           </div>
         </div>
         <div className='about__image-wrapper relative flex items-center justify-start lg:justify-center mt-12 mb-6 lg:mb-6'>
           <div className='about__image-boder relative w-[300px] h-[389px]'>
-            <img src={personalImage.src} alt='avatar' className='w-full h-full object-cover' />
+            <img
+              src='/images/personal-image.jpg'
+              alt='avatar'
+              className='w-full h-full object-cover'
+            />
           </div>
         </div>
       </div>

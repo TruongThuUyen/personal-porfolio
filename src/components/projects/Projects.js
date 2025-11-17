@@ -1,8 +1,4 @@
 import { useCallback, useEffect, useState } from 'react';
-import GoKartsImage from '../../../public/images/go-kart.png';
-import PersonalPorfolioImage from '../../../public/images/personal-portfolio.png';
-import DefaultThumbnail from '../../../public/images/thumbnail.png';
-import SocialMediaImage from '../../../public/images/yt.png';
 import { Dialog } from '../dialog/Dialog';
 import './styled.css';
 
@@ -12,7 +8,7 @@ const projectList = [
     name: 'Portfolio Frontend Project',
     description:
       'A personal portfolio website built with React and Tailwind CSS, focusing on performance optimization and interactive UI/UX design.',
-    imageUrl: PersonalPorfolioImage,
+    imageUrl: '/images/personal-portfolio.png',
     time: '10/2025',
     timeEnd: null,
     webLink: 'https://personal-porfolio-mocha.vercel.app/',
@@ -23,7 +19,7 @@ const projectList = [
     name: 'Go Kart Landing',
     description:
       'A website built using pure HTML, native JavaScript, and Tailwind CSS. It notably utilizes the CSS clip-path technique to create custom shapes and geometric effects instead of relying on static, pre-made images',
-    imageUrl: GoKartsImage,
+    imageUrl: '/images/go-kart.png',
     time: '03/2025',
     timeEnd: null,
     webLink: 'https://truongthuuyen.github.io/Css-testing-project/',
@@ -34,7 +30,7 @@ const projectList = [
     name: 'Film Info Project',
     description:
       'A movie information website clone developed with ReactJS and SCSS to practice integrating RESTful APIs and working with a NodeJS backend. The project is hosted on GitHub.',
-    imageUrl: SocialMediaImage,
+    imageUrl: '',
     time: '2022',
     timeEnd: '03/2025',
     webLink: '',
@@ -45,7 +41,7 @@ const projectList = [
     name: 'Social Media Project',
     description:
       'A social media practice project developed with ReactJS, RESTful APIs, and Firebase, focusing on frontend logic and responsive UI design.',
-    imageUrl: '',
+    imageUrl: '/images/yt.png',
     time: '2022',
     timeEnd: '03/2025',
     webLink: '',
@@ -94,7 +90,7 @@ export default function PersonalProjects() {
           <div key={project.id} className='project-item relative cursor-pointer overflow-hidden'>
             <div className='overlay'></div>
             <img
-              src={project.imageUrl.src || DefaultThumbnail.src}
+              src={project.imageUrl || '/images/thumbnail.png'}
               alt={project.name}
               className='project-image'
             />
