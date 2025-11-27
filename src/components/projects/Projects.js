@@ -11,7 +11,7 @@ const projectList = [
     imageUrl: '/images/ordering-food-app.png',
     time: '11/2025',
     timeEnd: 'Ongoing',
-    webLink: 'https://restaurant-app-ui-two.vercel.app/',
+    webLink: 'https://restaurant-ui-two-beta.vercel.app/',
     githubLink: 'https://github.com/TruongThuUyen/restaurant-food-ordering',
   },
   {
