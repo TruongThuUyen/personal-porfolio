@@ -5,14 +5,14 @@ import './styled.css';
 const projectList = [
   {
     id: 1,
-    name: 'Portfolio Frontend Project',
+    name: 'Restaurant food ordering project',
     description:
-      'A personal portfolio website built with React and Tailwind CSS, focusing on performance optimization and interactive UI/UX design.',
-    imageUrl: '/images/personal-portfolio.png',
-    time: '10/2025',
-    timeEnd: null,
-    webLink: 'https://personal-porfolio-mocha.vercel.app/',
-    githubLink: 'https://github.com/TruongThuUyen/personal-porfolio',
+      'The project is being developed with Next.js (Front-End) and Tailwind CSS. I am integrating it with an Express (Node.js) Back-End to handle data flow, specifically to process and persist order data submitted by the Client.',
+    imageUrl: '/images/ordering-food-app.png',
+    time: '11/2025',
+    timeEnd: 'Ongoing',
+    webLink: 'https://restaurant-app-ui-two.vercel.app/',
+    githubLink: 'https://github.com/TruongThuUyen/restaurant-food-ordering',
   },
   {
     id: 2,
@@ -30,10 +30,10 @@ const projectList = [
     name: 'Film Info Project',
     description:
       'A movie information website clone developed with ReactJS and SCSS to practice integrating RESTful APIs and working with a NodeJS backend. The project is hosted on GitHub.',
-    imageUrl: '',
+    imageUrl: '/images/film-info.png',
     time: '2022',
     timeEnd: '03/2025',
-    webLink: '',
+    webLink: 'https://filminfo.craftsoft.online/',
     githubLink: 'https://github.com/TruongThuUyen/Web_Film_FE',
   },
   {

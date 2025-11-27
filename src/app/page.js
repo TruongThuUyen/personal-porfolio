@@ -152,7 +152,7 @@ export default function Home() {
                 <button
                   className='btn-slide 
                     relative mt-5 z-1
-                    py-2.5 px-5 text-center 
+                  py-2.5 px-5 text-center 
                     text-sm sm:text-md
                     text-[var(--color-primary-black)] bg-[var(--color-primary-green)] 
                     transition-[var(--tran-05)] 
