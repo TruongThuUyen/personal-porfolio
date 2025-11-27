@@ -141,11 +141,11 @@ export default function Home() {
 
                 <div className='my-5'>
                   <p className='text-md text-[var(--text-primary-color)]'>
-                    I'm a dedicated Front-End Developer with one year of hands-on experience in
-                    building modern web applications using React.js and JavaScript. I also have
-                    practical experience with Microsoft Power Platform — including Power Pages,
-                    Power Automate, and Power Apps — allowing me to create integrated and efficient
-                    business solutions.
+                    I'm a dedicated Front-End Developer with 1+ years of hands-on experience in
+                    developing modern web applications using React.js and JavaScript. I also
+                    leverage practical experience with Microsoft Power Platform—including Power
+                    Pages, Power Automate, and Power Apps—to design and deploy integrated, efficient
+                    business solutions
                   </p>
                 </div>
 
